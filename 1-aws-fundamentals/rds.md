@@ -66,7 +66,7 @@
 - AWS RDS provides rest encryption: possibility to encrypt the master and read replicas with AWS KMS - AES-256 encryption
     - Encryption has to be defined at the launch time
     - **If the master is not encrypted, the read replicas cannot be encrypted**
-        - An encrypted read replica can be created from an unencrypted snapshot of master
+        - An encrypted read replica can be created from encrypted snapshot of an unencrypted master
     - Transparent Data Encryption (TDE) is available for Oracle and SQL Server
 - In-flight encryption: uses SSL certificates to encrypt data from client to RDS in flight
     - It is required SSL a trust certificate when connecting to database
