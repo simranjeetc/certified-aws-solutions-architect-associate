@@ -38,7 +38,7 @@
     - EFS has a higher price point than EBS
     - EFS is pay per second, we can leverage EFS-IA for cost saving
 
-- Choosing between EBS and EFS
+- Usecase for choosing between EBS and EFS
 
     - EBS is for single-instance, persistent storage that requires high performance and low latency, suitable for applications like relational databases or boot volumes.
 
