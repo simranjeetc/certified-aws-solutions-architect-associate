@@ -67,6 +67,8 @@ The content of this repository is out of date with the current requirements for 
 6. Whitepapers
     - [Well Architectured Framework](6-whitepapers/well-architectured-framework.md)
     - [AWS Truster Advisor](6-whitepapers/trusted-advisor.md)
+7. Use-cases
+    - [Use case based revision](7-use-cases/use-cases.md)
 
 ## Exam Description
 
