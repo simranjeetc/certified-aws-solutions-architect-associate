@@ -157,6 +157,7 @@
 - Provides backup and restore
 - Security is accomplished with VPC/IAM/KMS
 - Redshift Enhanced VPC Routing: COPY/UNLOAD goes through VPC
+- A **datashare** is a unit of sharing data that can be created for sharing data in Amazon Redshift with the users in the same or different accounts. It integrates with AWS IAM which provides a controlled way of sharing data with specific users in different accounts.
 
 ### Snapshots and Disaster Recovery
 
