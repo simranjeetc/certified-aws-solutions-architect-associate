@@ -85,5 +85,17 @@ Amazon EMR (Elastic MapReduce) is recommended for big data processing use cases.
 #### Which AWS service should I use to create interactive dashboards and visualizations from my data sources for business intelligence?
 Amazon QuickSight is the best choice for building interactive dashboards and visualizations. 
 
+### An organization is planning to move its employee self-service applications from on-premises data centers to AWS Cloud. The organization has millions of users in its Corporate Directory on-premises. They need a way to provide access to all applications that would be migrated to the cloud after users log in to their on-premises employee portal. Additionally, they aim to extend access to other cloud-based applications like Salesforce in the future. What is the best solution to have users on-premises access the applications in AWS?
+
+The best solution in this scenario is to use AWS IAM Identity Center to sign-on users defined in the Corporate Directory on-premises with SAML 2.0 based identity federation for accessing the AWS applications. AWS IAM Identity Center is a cloud-based single sign-on service that allows for central management of single sign-on across different AWS accounts and cloud applications. It provides flexibility by integrating with AWS-managed Microsoft AD, on-premises AD services, and any identity provider that is SAML 2.0 compliant.
+
+This approach allows the organization to leverage its existing on-premises identity provider and avoid duplicating users in IAM, ensuring a seamless integration and access management to cloud applications like Salesforce, Jenkins, and others directly through AWS IAM Identity Center, thereby aligning with the organization's requirements for a hybrid cloud model.
+
+#### A company wants to monitor the performance of their EC2 instances, such as CPU utilization, and receive alerts when usage goes beyond 80%, potentially indicating performance issues or the need for scaling.
+CloudWatch
+
+#### A company needs to ensure that all administrative actions, such as launching or terminating EC2 instances, modifying security groups, or configuring other AWS services, are recorded for compliance with IT security standards and auditing.
+CloudTrail
+
 
 AWS PrivateLink vs VPC Peering
