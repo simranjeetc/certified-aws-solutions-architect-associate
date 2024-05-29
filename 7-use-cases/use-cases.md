@@ -117,5 +117,9 @@ AWS Security Hub
 #### An organization requires detailed assessments and remediation related to **network** accessibility of EC2 instances. Which AWS service can provide this type of security assessment information?
 AWS Inspector
 
+#### The Utopia Municipality Corporation runs its applications locally but has its database on an on-premise data center while keeping the application server in EC2. They need a solution that allows all AWS services to communicate seamlessly with their on-premises database without migrating or hosting it in the cloud, ensuring compliance and a consistent hybrid experience. What AWS service should they use?
+- AWS Outposts delivers AWS infrastructure and services to virtually any on-premises or edge location, providing a truly consistent hybrid experience. It is fully managed and supports local processing and data residency, which aligns with the organization's requirement for low-latency access to on-premises systems without migrating the database to AWS.
+- AWS DataSync is an online data transfer service that simplifies, automates, and accelerates moving data into AWS. Like Snowball Edge, it conflicts with the organization's policy against migrating their database to the cloud.
+- While AWS Storage Gateway facilitates the integration of on-premises environments with cloud storage, it is primarily used for backup solutions and would not support the real-time, low-latency interaction required between AWS services and the on-premises database without hosting data in the cloud.
 
 AWS PrivateLink vs VPC Peering
