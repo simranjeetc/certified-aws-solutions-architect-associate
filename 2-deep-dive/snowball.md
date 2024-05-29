@@ -38,3 +38,13 @@
 
 - Snowball can not import data directly to Glacier
 - We have to use Amazon S3 first, adn an S3 lifecycle policy
+
+## Snowcone & snowcone ssd
+- Use Snowcone where Snowball does not fit (space- constrained environment)
+- Small, portable computing, anywhere, rugged & secure, withstands harsh environments
+- Light (4.5 pounds, 2.1 kg)
+- Device used for edge computing, storage, and data transfer
+- Snowcone – 8 TB of HDD Storage
+- Snowcone SSD – 14 TB of SSD Storage
+
+snowmobile > snowball > snowcone
