@@ -97,5 +97,25 @@ CloudWatch
 #### A company needs to ensure that all administrative actions, such as launching or terminating EC2 instances, modifying security groups, or configuring other AWS services, are recorded for compliance with IT security standards and auditing.
 CloudTrail
 
+Based on the provided content, here are the Q&A formatted notes focusing on use-case scenarios related to AWS services for security management:
+
+#### A company wants to aggregate, organize, and prioritize security alerts or findings across multiple AWS services using automated security checks based on AWS security best practices. Which AWS service should they use to manage this in a centralized manner?
+AWS Security Hub
+
+#### In a scenario where both security and operational issues need to be managed and remediated, which AWS service can provide detailed insights and data that can be used to understand and mitigate these concerns independently or in a combined manner?
+AWS Systems Manager Ops Center
+
+#### If a business needs to manage and remediate operational issues within their AWS environment, which service allows for the automation of these tasks and helps in ensuring operational health?
+AWS Systems Manager
+
+#### Which AWS service is used to protect applications from Distributed Denial of Service (DDoS) attacks, ensuring that applications remain available and performant?
+AWS Shield
+
+#### When a company needs to manage and remediate security issues within their AWS environment, which service offers capabilities to handle these security challenges effectively?
+AWS Security Hub
+
+#### An organization requires detailed assessments and remediation related to **network** accessibility of EC2 instances. Which AWS service can provide this type of security assessment information?
+AWS Inspector
+
 
 AWS PrivateLink vs VPC Peering
