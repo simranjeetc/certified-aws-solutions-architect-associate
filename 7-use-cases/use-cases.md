@@ -122,4 +122,47 @@ AWS Inspector
 - AWS DataSync is an online data transfer service that simplifies, automates, and accelerates moving data into AWS. Like Snowball Edge, it conflicts with the organization's policy against migrating their database to the cloud.
 - While AWS Storage Gateway facilitates the integration of on-premises environments with cloud storage, it is primarily used for backup solutions and would not support the real-time, low-latency interaction required between AWS services and the on-premises database without hosting data in the cloud.
 
+#### A company needs to continuously monitor and protect sensitive data such as personally identifiable information (PII) stored in Amazon S3 buckets. Which AWS service should they use to automatically discover, classify, and protect sensitive data in S3?
+Amazon Macie. It uses machine learning and pattern matching to identify and safeguard sensitive data in Amazon S3 buckets. Macie automatically assesses S3 buckets to detect sensitive data and provides detailed reports of any findings.
+
+#### An organization suspects that its AWS credentials have been compromised and wishes to identify any unusual access patterns to its Amazon S3 buckets. Which AWS service should they utilize to monitor and protect against the use of compromised credentials?
+Amazon GuardDuty. It protects against compromised credentials and unusual access patterns to Amazon S3 but does not scan the contents of the buckets for sensitive data.
+
+#### A security team needs to analyze security data from multiple AWS services to determine the root cause of security incidents in their AWS environment. Which service provides the analysis and visualization tools necessary for this task?
+Amazon Detective. It analyzes and visualizes security data from services like Amazon GuardDuty, Amazon Macie, and AWS Security Hub to help uncover the root causes of security issues.
+
+#### A company wants to ensure that its Amazon EC2 instances are not exposed to software vulnerabilities or risky network configurations. Which AWS service should they employ to evaluate the security posture of their EC2 instances?
+Amazon Inspector. It assesses Amazon EC2 instances for software vulnerabilities and unintended network exposures, providing recommendations for security improvements.
+
+#### A company needs to migrate their on-premises applications such as SAP, Oracle, and SQL Server to AWS without needing multiple migration-specific experts. Which AWS service should they use to ensure cost-effective migration with minimal disruption?
+AWS Application Migration Service (AWS MGN). This service allows the migration of applications to AWS Cloud by initially replicating data to AWS, conducting necessary tests, and then performing a cutover with minimal disruption to application performance.
+
+#### Which AWS service should a company use if it needs to gather detailed information about their on-premises data centers before planning a cloud migration?
+AWS Application Discovery Service. This service helps in planning cloud migration by collecting detailed information about on-premises data centers, facilitating a more informed migration strategy.
+
+#### A business needs to track the activities and status of their migration process in detail. Which AWS service offers the capability to monitor the activities performed during the migration?
+AWS Migration Hub. Although not directly mentioned in the given text, AWS Migration Hub provides a central location to monitor and manage migrations from on-premises to AWS, offering detailed tracking capabilities.
+
+#### If a company wants to ensure continuous data synchronization during migration without service interruption, which AWS service is suitable for migrating SQL Server databases from on-premises to AWS?
+AWS DMS (Database Migration Service). Even though DMS was not specifically corrected or incorrect in the options, it's worth noting that AWS DMS supports the migration of SQL databases like SQL Server to AWS, maintaining synchronization between the source and target databases during the migration process.
+
+#### An organization needs to ensure that a migrated application is fully functional and performing as expected on AWS before cutting over to production. What process or strategy should they adopt according to AWS best practices?
+As described in the AWS Application Migration Service, the strategy would be to replicate the application data to AWS, perform thorough tests to validate business operations on AWS, and then execute a planned cutover to minimize disruption to application performance.
+
+#### A company operating on AWS requires enhanced protection against DDoS attacks on its EC2 instances, ELB, Amazon CloudFront, AWS Global Accelerator, and Route 53 resources. They need a solution that offers real-time visibility of attacks and integration with AWS WAF for proactive mitigation strategies. Which AWS service should they use?
+Amazon Shield Advanced. This service provides a higher level of protection against DDoS attacks, real-time visibility for the attacks, and can be integrated with AWS WAF to create proactive rules against these attacks. It also engages the AWS Shield Response Team (SRT) for further protection and mitigation strategies.
+
+#### A small business using AWS wants basic protection against DDoS attacks for their resources like Elastic Load Balancing (ELB) and Amazon CloudFront without the need for real-time attack visibility or the intervention of a dedicated response team. Which AWS service would suit their needs?
+AWS Shield Standard. This service automatically protects all AWS resources and is suitable for customers who need essential protection against DDoS attacks without the additional features and cost of AWS Shield Advanced.
+
+#### An organization needs a comprehensive security solution to analyze logs from multiple AWS services like CloudTrail, VPC flow logs, and DNS query logs to understand and mitigate security issues, including DDoS attacks. Which AWS service should they consider to complement their use of AWS Shield?
+Amazon Detective. This service analyzes logs from various AWS security services to help identify the root causes of security issues, providing insights that can be crucial for mitigating DDoS attacks effectively when used in conjunction with AWS Shield.
+
+#### A high-profile media streaming company frequently targeted by sophisticated DDoS attacks requires a service that not only protects against such attacks but also offers the support of a response team to handle incidents as they occur. Which AWS service meets this requirement?
+Amazon Shield Advanced. It not only provides protection against DDoS attacks but also includes the engagement of the AWS Shield Response Team (SRT), who are actively involved in managing and mitigating attacks.
+
+#### A company needs to ensure their web applications are safeguarded against DDoS attacks and require updating WAF rules frequently as per the latest threat landscape. They also require service with proactive engagement during attacks. What should they opt for?
+Amazon Shield Advanced with integration of AWS WAF. This combination allows for the dynamic updating of WAF rules and proactive engagement from the AWS Shield Response Team during DDoS attacks, ensuring robust security measures are in place.
+
+
 AWS PrivateLink vs VPC Peering
