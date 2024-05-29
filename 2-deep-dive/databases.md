@@ -145,6 +145,7 @@
 - Redshift is based on PostgreSQL, but it's not used for OLTP
 - It's **OLAP - only analytical processing (analytics and data warehousing)**
 - 10x better performance than other data warehouses, scales to PBs of data
+- AQUA (Advanced Query Accelerator) for redshift can boost query performance by 10x
 - Columnar database: data is stored in columns
 - Massively parallel query execution (MPP), highly available
 - Pay as you go based on the instances provisioned
