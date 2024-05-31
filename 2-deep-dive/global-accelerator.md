@@ -26,6 +26,7 @@
 
 - The both use the same AWS global network and its edge locations around the world
 - Both services integrate with AWS Shield for DDoS protection
+
 - CloudFront:
     - Improves performance for both cacheable content (such as images and videos) and dynamic content (such as API acceleration and dynamic site delivery)
     - Content is served from the edge locations
@@ -33,4 +34,18 @@
     - Improves performance for a wide range of applications over TCP or UDP
     - Packages to the application are proxied from the edge locations
     - Good fit for non-HTTP applications such as gaming (UDP), IoT (MQTT) or Voice over IP
-    - Good fir tor HTTP in case if it is required to have static IP addresses or deterministic and fast regional failover
+    - Good fit for HTTP in case if it is required to have static IP addresses or deterministic and fast regional failover
+
+
+- Use AWS Global Accelerator for:
+    - Non-HTTP Use Cases: Ideal for accelerating non-HTTP apps with TCP or UDP protocols.
+    - Consistent Performance: Ensures low-latency performance worldwide by optimizing the path to your app.
+    - Failover Needs: Offers robust failover capabilities for uninterrupted service.
+    - IP Address Management: Provides static IP addresses for critical use cases like IP allowlisting.
+
+- Opt for Amazon CloudFront if:
+    - HTTP/S Based Content: Perfect for content heavily reliant on HTTP/S protocols like websites and APIs.
+    - Content Caching: Advanced caching for faster content delivery from edge locations.
+    - Integration with AWS Services: Deep integration with services like Amazon S3, AWS WAF, and Lambda@Edge.
+    - Cost Efficiency for Large Data Volumes: A cost-effective choice for delivering large data globally, especially when caching effectively.
+
