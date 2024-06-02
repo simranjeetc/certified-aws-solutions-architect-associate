@@ -41,7 +41,7 @@ A VPN Connection is suitable when dedicated connectivity is impractical or too e
 #### How can AWS services be utilized to securely connect services across different accounts and regions without exposing data to the public internet?
 AWS PrivateLink is the best option for securely connecting services across VPCs and accounts without public internet exposure. It's especially useful for internal service sharing or connecting with external partners while minimizing the attack surface by avoiding public IP addresses and simplifying security management.
 
-Certainly! Here's how the options from the text can be formatted into a question-and-answer format, focusing on the use cases each AWS service is best suited for:
+VPC Peering has cross region limitations
 
 #### Which AWS service should I use to identify objects, people, text, scenes, and activities in images and videos, and to analyze facial details?
 Amazon Rekognition is the ideal service for these tasks. It provides capabilities to identify various elements within images and videos, offers facial analysis, and has advanced search capabilities for detecting, analyzing, and comparing faces. 
