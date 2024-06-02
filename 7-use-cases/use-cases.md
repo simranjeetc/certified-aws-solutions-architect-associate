@@ -85,7 +85,7 @@ Amazon EMR (Elastic MapReduce) is recommended for big data processing use cases.
 #### Which AWS service should I use to create interactive dashboards and visualizations from my data sources for business intelligence?
 Amazon QuickSight is the best choice for building interactive dashboards and visualizations. 
 
-### An organization is planning to move its employee self-service applications from on-premises data centers to AWS Cloud. The organization has millions of users in its Corporate Directory on-premises. They need a way to provide access to all applications that would be migrated to the cloud after users log in to their on-premises employee portal. Additionally, they aim to extend access to other cloud-based applications like Salesforce in the future. What is the best solution to have users on-premises access the applications in AWS?
+#### An organization is planning to move its employee self-service applications from on-premises data centers to AWS Cloud. The organization has millions of users in its Corporate Directory on-premises. They need a way to provide access to all applications that would be migrated to the cloud after users log in to their on-premises employee portal. Additionally, they aim to extend access to other cloud-based applications like Salesforce in the future. What is the best solution to have users on-premises access the applications in AWS?
 
 The best solution in this scenario is to use AWS IAM Identity Center to sign-on users defined in the Corporate Directory on-premises with SAML 2.0 based identity federation for accessing the AWS applications. AWS IAM Identity Center is a cloud-based single sign-on service that allows for central management of single sign-on across different AWS accounts and cloud applications. It provides flexibility by integrating with AWS-managed Microsoft AD, on-premises AD services, and any identity provider that is SAML 2.0 compliant.
 
@@ -96,8 +96,6 @@ CloudWatch
 
 #### A company needs to ensure that all administrative actions, such as launching or terminating EC2 instances, modifying security groups, or configuring other AWS services, are recorded for compliance with IT security standards and auditing.
 CloudTrail
-
-Based on the provided content, here are the Q&A formatted notes focusing on use-case scenarios related to AWS services for security management:
 
 #### A company wants to aggregate, organize, and prioritize security alerts or findings across multiple AWS services using automated security checks based on AWS security best practices. Which AWS service should they use to manage this in a centralized manner?
 AWS Security Hub
@@ -144,10 +142,10 @@ AWS Application Discovery Service. This service helps in planning cloud migratio
 AWS Migration Hub. Although not directly mentioned in the given text, AWS Migration Hub provides a central location to monitor and manage migrations from on-premises to AWS, offering detailed tracking capabilities.
 
 #### If a company wants to ensure continuous data synchronization during migration without service interruption, which AWS service is suitable for migrating SQL Server databases from on-premises to AWS?
-AWS DMS (Database Migration Service). Even though DMS was not specifically corrected or incorrect in the options, it's worth noting that AWS DMS supports the migration of SQL databases like SQL Server to AWS, maintaining synchronization between the source and target databases during the migration process.
+AWS DMS (Database Migration Service). AWS DMS supports the migration of SQL databases like SQL Server to AWS, maintaining synchronization between the source and target databases during the migration process.
 
 #### An organization needs to ensure that a migrated application is fully functional and performing as expected on AWS before cutting over to production. What process or strategy should they adopt according to AWS best practices?
-As described in the AWS Application Migration Service, the strategy would be to replicate the application data to AWS, perform thorough tests to validate business operations on AWS, and then execute a planned cutover to minimize disruption to application performance.
+Using AWS Application Migration Service, the strategy would be to replicate the application data to AWS, perform thorough tests to validate business operations on AWS, and then execute a planned cutover to minimize disruption to application performance.
 
 #### A company operating on AWS requires enhanced protection against DDoS attacks on its EC2 instances, ELB, Amazon CloudFront, AWS Global Accelerator, and Route 53 resources. They need a solution that offers real-time visibility of attacks and integration with AWS WAF for proactive mitigation strategies. Which AWS service should they use?
 Amazon Shield Advanced. This service provides a higher level of protection against DDoS attacks, real-time visibility for the attacks, and can be integrated with AWS WAF to create proactive rules against these attacks. It also engages the AWS Shield Response Team (SRT) for further protection and mitigation strategies.
