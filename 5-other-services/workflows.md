@@ -35,10 +35,21 @@
 
 ## AWS Appsync
 
-- Store and sync data across mobile and web apps in real time
-- Makes use of GraphQL
-- Client code can be generated automatically
-- Provides integration with DynamoDB/Lambda
-- Proves real-time subscriptions, offline data synchronization (replacement for AWS Cognito Sync)
-- Provides fine grained security
+- Scalable API creation with GraphQL, manages diverse data sources.
+- Syncs data in real-time across mobile and web apps.
+- Automatically generates client code.
+- Offers real-time subscriptions, offline data sync.
+- Ensures fine-grained security.
+- Connects with DynamoDB, Lambda, Elasticsearch, others.
+- Supports dynamic content via WebSockets subscriptions.
+- Allows offline interactions in mobile apps.
+- Integrates with AWS IAM, Cognito for security.
+- Custom resolvers in Lambda handle complex operations.
+- Optimizes data transfers, specifying needed data.
+- Uses AWS CloudWatch for detailed API monitoring.
+
+
+
+
+
 
