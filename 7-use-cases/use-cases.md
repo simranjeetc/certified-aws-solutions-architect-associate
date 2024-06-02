@@ -183,3 +183,9 @@ The platform should use **Amazon Transcribe**. This service provides automated s
 **Amazon Personalize** would be the ideal service. It uses machine learning to customize applications, providing personalized recommendations to users based on their individual behaviors and preferences on the site.
 
 
+#### Which AWS services can directly query data from Amazon S3 without the necessity of loading the data from S3 into them?
+- Amazon Athena
+- Amazon Redshift Spectrum
+- Amazon S3 Select
+- AWS Glue
+- AWS Lake Formation
