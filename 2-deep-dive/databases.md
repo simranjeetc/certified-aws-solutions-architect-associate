@@ -151,7 +151,7 @@
 - Pay as you go based on the instances provisioned
 - Has a SQL interface for performing the queries
 - Great to use with BI tools such as AWS Quicksight or Tableau
-- Data is loaded form S3, DynamoDB, Database Migration Service (DMS), other DBs
+- Data is loaded from S3, DynamoDB, Database Migration Service (DMS), other DBs
 - Can scale from 1 node up to 128 nodes, up to 160 GB of space per node
 - Node types: compute nodes for performing queries, result is sent to leader nodes
 - Redshift Spectrum: perform queries directly against S3 (no need to load the data)
