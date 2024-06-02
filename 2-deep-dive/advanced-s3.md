@@ -100,6 +100,12 @@
     - Bulk (5 to 12 hours)
 - Minimum storage duration for Glacier is 90 days
 
+- Retrieval policies
+    - No Retrieval Limit Policy: Allows unlimited retrievals, potentially high costs.
+    - Free Tier Only Policy: Keeps retrievals within AWS Free Tier limits.
+    - Max Retrieval Rate Policy: Limits peak bytes-per-hour retrieval rate.
+    - Standard Retrieval: Takes about 12 hours, incurs regional costs.
+
 ### S3 Glacier Deep Archive
 
 - For very long term storage - cheaper than S3 Glacier
