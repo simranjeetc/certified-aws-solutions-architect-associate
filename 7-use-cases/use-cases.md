@@ -162,5 +162,8 @@ Amazon Shield Advanced. It not only provides protection against DDoS attacks but
 #### A company needs to ensure their web applications are safeguarded against DDoS attacks and require updating WAF rules frequently as per the latest threat landscape. They also require service with proactive engagement during attacks. What should they opt for?
 Amazon Shield Advanced with integration of AWS WAF. This combination allows for the dynamic updating of WAF rules and proactive engagement from the AWS Shield Response Team during DDoS attacks, ensuring robust security measures are in place.
 
+#### An airline company needs to analyze customer feedback about services provided. A large number of files are created which have texts such as Ticket returns and Flight complaints based upon customer feedback. This text should be categorized, and a label needs to be assigned for further analysis. The company is planning to use Amazon Comprehend for this purpose. The project team is looking for your suggestions for storing files that Amazon Comprehend can use for processing and saving the results.
+
+![s3-comprehend-redshift](./images/s3-comprehend-redshift.png)
 
 AWS PrivateLink vs VPC Peering
