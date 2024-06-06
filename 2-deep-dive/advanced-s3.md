@@ -156,6 +156,11 @@
 - Can be used to retrieve less data using SQL queries to do server side filtering
 - We can filter by rows and columns. SQL statements should be simple, we can not have joins
 - The purpose of S3 Select is to use less network traffic
+- SQL expression max size: 256 KB.
+- Max record size: 1 MB.
+- Only JSON output for nested data.
+- No S3 Glacier Flexible/Deep Archive classes.
+- No storage class restrictions for Standard S3.
 
 ## AWS Athena
 
