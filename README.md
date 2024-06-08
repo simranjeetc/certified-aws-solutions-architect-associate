@@ -71,6 +71,8 @@ The content of this repository is out of date with the current requirements for 
     - [AWS Truster Advisor](6-whitepapers/trusted-advisor.md)
 7. Use-cases
     - [Use case based revision](7-use-cases/use-cases.md)
+8. New-services
+    - [New Services](8-new-services/new-services.md)
 
 ## Exam Description
 

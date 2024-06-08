@@ -1,0 +1,25 @@
+- AWS Data Exchange
+- AWS Data Pipeline
+- AWS Lake Formation
+- Amazon Managed Streaming for Apache Kafka
+- Amazon AppFlow
+- AWS Outposts
+- VMware Cloud on AWS
+- AWS Wavelength
+- Amazon Neptune
+- Amazon Quantum Ledger Database
+- Amazon Timestream
+- AWS Amplify
+- Amazon Comprehend
+- Amazon Forecast
+- Amazon Fraud Detector
+- Amazon Kendra
+- AWS License Manager
+- Amazon Managed Grafana
+- Amazon Managed Service for Prometheus
+- AWS Proton
+- Amazon Elastic Transcoder
+- Amazon Kinesis Video Streams
+- AWS Application Discovery Service
+- AWS WAF Serverless
+- AWS AppSync
