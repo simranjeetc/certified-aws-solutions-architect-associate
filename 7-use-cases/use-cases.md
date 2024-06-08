@@ -208,9 +208,8 @@ Amazon Storage Gateway
 #### A business intends to migrate a large amount of data from Google Cloud Storage to an Amazon S3 bucket. They require a solution that can automate the transfer and handle large datasets efficiently. Which AWS service is perfect for this requirement?
 AWS DataSync is the correct choice for transferring data between different storage systems and cloud services efficiently and can handle large amounts of data without extensive coding.
 
-#### A multinational company needs to accelerate the transfer of large data sets to Amazon S3 across global locations to improve performance for their worldwide user base. The solution must integrate well with Amazon CloudFront to reduce latency. Which service would be the wrong option for directly migrating object storage between cloud providers?
-S3 Transfer Acceleration is incorrect for direct cloud-to-cloud migrations as it is optimized for speeding up the transfer of data to S3 buckets globally via the internet, not for data migrations between cloud providers.
-
+#### A multinational company needs to accelerate the transfer of large data sets to Amazon S3 across global locations to improve performance for their worldwide user base. The solution must integrate well with Amazon CloudFront to reduce latency. Which service would better suit this requirement?
+AWS DataSync is better for cloud-to-cloud migrations because it's designed for efficient data transfer between different storage systems. S3 Transfer Acceleration is not suitable as it only speeds up uploads to S3, not between cloud providers.
 #### A company experiences daily peaks in web traffic that are predictable. They need a solution that allows them to prepare in advance to handle these surges without manual intervention. Which scaling strategy should they choose?
 Use the Scheduled scaling type to scale out quickly
 
