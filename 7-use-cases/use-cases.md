@@ -202,8 +202,8 @@ Amazon Cognito
 #### A company needs to migrate their on-premises application workloads to AWS. The migration includes complex applications and databases that must be carefully managed to ensure minimal downtime. Which service is not suitable for this specific type of data transfer?
 AWS Server Migration Service (SMS) – An agentless service that makes it easier and faster to migrate thousands of on-premises workloads to AWS.
 
-#### An enterprise is looking to create a hybrid storage environment where they can seamlessly integrate their on-premises storage with AWS services, allowing for frequent access to data stored on AWS as if it were local. Which service is incorrect for migrating object storage data between cloud providers?
-Amazon Storage Gateway is incorrect for this scenario because it is primarily used for hybrid storage requirements rather than cloud-to-cloud data transfers.
+#### An enterprise is looking to create a hybrid storage environment where they can seamlessly integrate their on-premises storage with AWS services, allowing for frequent access to data stored on AWS as if it were local. Which service is can be used for this scenario?
+Amazon Storage Gateway 
 
 #### A business intends to migrate a large amount of data from Google Cloud Storage to an Amazon S3 bucket. They require a solution that can automate the transfer and handle large datasets efficiently. Which AWS service is perfect for this requirement?
 AWS DataSync is the correct choice for transferring data between different storage systems and cloud services efficiently and can handle large amounts of data without extensive coding.
