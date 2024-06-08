@@ -210,6 +210,7 @@ AWS DataSync is the correct choice for transferring data between different stora
 
 #### A multinational company needs to accelerate the transfer of large data sets to Amazon S3 across global locations to improve performance for their worldwide user base. The solution must integrate well with Amazon CloudFront to reduce latency. Which service would better suit this requirement?
 AWS DataSync is better for cloud-to-cloud migrations because it's designed for efficient data transfer between different storage systems. S3 Transfer Acceleration is not suitable as it only speeds up uploads to S3, not between cloud providers.
+
 #### A company experiences daily peaks in web traffic that are predictable. They need a solution that allows them to prepare in advance to handle these surges without manual intervention. Which scaling strategy should they choose?
 Use the Scheduled scaling type to scale out quickly
 
