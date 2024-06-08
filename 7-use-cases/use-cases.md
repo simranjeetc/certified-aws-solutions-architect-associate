@@ -189,3 +189,36 @@ The platform should use **Amazon Transcribe**. This service provides automated s
 - Amazon S3 Select
 - AWS Glue
 - AWS Lake Formation
+
+#### A company has its on-premises Active Directory infrastructure already in place and wants to extend its existing identities to AWS Cloud without setting up a full Microsoft AD on AWS. Which service should they use?
+Active Directory Connector
+
+#### An organization is looking to set up a standalone, managed directory on AWS to support Windows workloads that require Microsoft Active Directory, without relying on an existing on-premises AD. What is the best AWS service for this?
+AWS Directory Service for Microsoft AD
+
+#### A startup wants to manage user identities for their mobile and web applications, enabling functionalities such as user sign-up, sign-in, and access control without building their own backend for identity management. Which AWS service fits these needs?
+Amazon Cognito
+
+#### A company needs to migrate their on-premises application workloads to AWS. The migration includes complex applications and databases that must be carefully managed to ensure minimal downtime. Which service is not suitable for this specific type of data transfer?
+AWS Migration Hub is not suitable because it is designed for managing the migration process rather than moving the actual data between cloud environments.
+
+#### An enterprise is looking to create a hybrid storage environment where they can seamlessly integrate their on-premises storage with AWS services, allowing for frequent access to data stored on AWS as if it were local. Which service is incorrect for migrating object storage data between cloud providers?
+Amazon Storage Gateway is incorrect for this scenario because it is primarily used for hybrid storage requirements rather than cloud-to-cloud data transfers.
+
+#### A business intends to migrate a large amount of data from Google Cloud Storage to an Amazon S3 bucket. They require a solution that can automate the transfer and handle large datasets efficiently. Which AWS service is perfect for this requirement?
+AWS DataSync is the correct choice for transferring data between different storage systems and cloud services efficiently and can handle large amounts of data without extensive coding.
+
+#### A multinational company needs to accelerate the transfer of large data sets to Amazon S3 across global locations to improve performance for their worldwide user base. The solution must integrate well with Amazon CloudFront to reduce latency. Which service would be the wrong option for directly migrating object storage between cloud providers?
+S3 Transfer Acceleration is incorrect for direct cloud-to-cloud migrations as it is optimized for speeding up the transfer of data to S3 buckets globally via the internet, not for data migrations between cloud providers.
+
+#### A company experiences daily peaks in web traffic that are predictable. They need a solution that allows them to prepare in advance to handle these surges without manual intervention. Which scaling strategy should they choose?
+Use the Scheduled scaling type to scale out quickly
+
+#### An online retailer needs to maintain application performance during sudden and unforeseen spikes in demand, such as flash sales, without keeping a high number of EC2 instances running all the time. What's the best strategy?
+Use Warm Pool with Auto Scaling
+
+#### A gaming company launches a new online game, which leads to a rapid increase in players. They need to immediately increase server capacity to ensure game performance remains steady. Which option should they use?
+Use the Desired capacity parameter to scale out quickly
+
+#### An IT company wants to ensure that their scaling processes allow for instances to properly initialize and configure software or load up-to-date data before they start serving traffic, but also want to control how these instances are terminated. What feature should they implement?
+Use Lifecycle hooks with Auto Scaling
