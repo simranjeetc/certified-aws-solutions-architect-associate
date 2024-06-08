@@ -218,7 +218,7 @@ Use the Scheduled scaling type to scale out quickly
 Use Warm Pool with Auto Scaling
 
 #### A gaming company launches a new online game, which leads to a rapid increase in players. They need to immediately increase server capacity to ensure game performance remains steady. Which option should they use?
-Use the Desired capacity parameter to scale out quickly
+Use the Desired capacity parameter in AWS auto scaling groups to scale out quickly
 
 #### An IT company wants to ensure that their scaling processes allow for instances to properly initialize and configure software or load up-to-date data before they start serving traffic, but also want to control how these instances are terminated. What feature should they implement?
 Use Lifecycle hooks with Auto Scaling
