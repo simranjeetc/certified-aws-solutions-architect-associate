@@ -21,6 +21,8 @@
     - Can "read" S3 as a file system
     - Can write the output of the computations back to S3
 - It can be used with on-premise servers
+- Scratch deployment type - short term
+- Persistent deployment type - long term
 
 ## Storage Comparison
 
