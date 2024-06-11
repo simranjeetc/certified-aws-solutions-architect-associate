@@ -222,3 +222,7 @@ Use the Desired capacity parameter in AWS auto scaling groups to scale out quick
 
 #### An IT company wants to ensure that their scaling processes allow for instances to properly initialize and configure software or load up-to-date data before they start serving traffic, but also want to control how these instances are terminated. What feature should they implement?
 Use Lifecycle hooks with Auto Scaling
+
+#### You have launched an EC2 instance with a General Purpose EBS Volume of 16384 GB as its root volume (/dev/xvda). After working on it for some time, you observed the need to have more storage with this instance. You found a volume (/dev/xvdf1) available in your account. Therefore, this volume is attached as an additional volume with your EC2 instance. One of your teammates informed you that this volume (/dev/xvdf1) was created from the snapshot of the root volume of another instance. Later on, upon rebooting the instance, you connect to it and observe that the instance has booted from /dev/xvdf1, whereas it was supposed to boot from /dev/xvda (original root volume). What should you do now to resolve the problem and let the instance boot from the correct volume?
+
+Change the label of the additional volume using the e2label command. 
