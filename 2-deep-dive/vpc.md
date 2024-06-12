@@ -271,6 +271,22 @@
 - Works with Direct Connect Gateway, VPN connections
 - Supports **IP Multicast** (not supported by any other AWS services)
 
+
+## BGP (Border Gateway Protocol):
+
+- BGP is an exterior gateway protocol for internet routing.
+- Manages paths for data packets across internet-autonomous systems.
+- Path vector protocol, directs traffic through shortest paths.
+- Exchanges routing information for scalable internet connectivity.
+- Crucial for ISP connectivity and large network operations.
+- Includes path, origin, next-hop, local preference, and more.
+- Allows route manipulation based on set policies.
+- BGP-4 is the current standard version used.
+- Establishes peer connections using TCP, maintains stability.
+- Uses keepalive messages, ensures persistent and stable routes.
+- Influences route decisions through policies, not just paths.
+- NO_EXPORT: A common community tag to restrict route propagation. 
+
 ## VPC Summary
 
 - CIDR: IP Range
