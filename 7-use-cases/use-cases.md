@@ -1,3 +1,13 @@
+
+## Diagrams 
+
+### CDN
+![aws-cdn](./images/aws-cdn.png)
+
+### Monitoring
+![aws-monitoring](./images/aws-monitoring.png)
+
+
 #### How to prevent deletion of important documents indefinitely using Amazon S3 Glacier Vault
 
 1. Set a legal hold on the formulation document archive in the vault
